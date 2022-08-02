@@ -1,0 +1,20 @@
+      
+         
+Name(s): Abhi Hasmukhbhai  Patel                 
+--------------------------------------------------------------------------         
+-------------------------------------------------------------------------- 
+
+In code, there are two package
+1)player
+		1)Player.java: This file acts as a client. It connects to the server via socket and does the required operation by using datainputStream and dataoutputStream.
+		It has a method named ReadFromServer which uses run method of Thread class and enable and disable button based on player actions.
+
+2)server
+	1)Server.java : 
+	This file acts as a server. It allows multiple clients to connect.There are few methods such as Server,HandlePlayers,sendToAllPlayes,checkWinner,assignTokens.
+		1.Server : This method implements ServerSocket and accepts 2 client connections.
+		2.HandlePlayers: This method Initialize datainputStream and dataoutputStream.And send and receive messages from clients.
+		3.sendToAllPlayes: This method broadcast messages to all clients.
+		4.checkWinner: This method takes a list of winning pairs and check with both players moves.
+		5.assignTokens: This method gives a sign to the particular connected client.
+	.
