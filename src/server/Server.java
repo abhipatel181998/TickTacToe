@@ -1,4 +1,3 @@
-//Author: Abhi Patel
 package server;
 
 import java.io.DataInputStream;

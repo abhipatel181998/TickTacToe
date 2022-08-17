@@ -1,4 +1,3 @@
-//Author: Harshil Parmar.
 package player;
 
 import java.io.DataInputStream;
